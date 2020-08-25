@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'practice12';
+  inputvariable:string="hiii i am your parent";
+  constructor()
+  {
+
+  }
+  getdata(value){
+    console.log(value);
+  }
 }
